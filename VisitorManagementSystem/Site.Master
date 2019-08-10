@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="VisitorManagementSystem.SiteMaster" %>
+
+<%@ Register Src="~/Header.ascx" TagPrefix="uc1" TagName="Header" %>
+<%@ Register Src="~/Footer.ascx" TagPrefix="uc2" TagName="Footer" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>AKSS-Visitor Management System</title>
+
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <link href="css/ui-lightness/jquery-ui-1.8.19.custom.css" rel="stylesheet" />
+    <script src="Scripts/jquery-1.7.2.min.js"></script>
+    <script src="Scripts/jquery-ui-1.8.19.custom.min.js"></script>
+    <script src="Scripts/jquery-ui-1.8.20.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style2 {
+            height: 475px;
+        }
+        .auto-style1 {
+            height: 25px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <div style="height: 500px">
+            <table cellpadding="1" cellspacing="1" width="100%" align="center" class="BlueBorder"
+                style="background: White;">
+                <tr>
+                    <td>
+                        <uc1:Header ID="Header1" runat="server" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="background-color: white; padding: 5px;" class="auto-style2">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style1">
+                        <uc2:Footer ID="Footer1" runat="server" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>

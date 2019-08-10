@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\RVisitorManagementSystem\R-VisitorManagementSystem\R-VisitorManagementSyatem\VisitorManagementSystem\bin\Release\PublishOutput</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AddVisitor.aspx">
+      <publishTime>07/21/2019 22:41:34</publishTime>
+    </File>
+    <File Include="ADMIN/AdminPanel.aspx">
+      <publishTime>07/21/2019 22:41:34</publishTime>
+    </File>
+    <File Include="ADMIN/ManageEmployee.aspx">
+      <publishTime>07/21/2019 22:41:34</publishTime>
+    </File>
+    <File Include="ADMIN/ManageVisitors.aspx">
+      <publishTime>07/21/2019 22:41:34</publishTime>
+    </File>
+    <File Include="ADMIN/ManageVisitorsReport.aspx">
+      <publishTime>07/21/2019 22:41:34</publishTime>
+    </File>
+    <File Include="ADMIN/ViewVisitorsByEmp.aspx">
+      <publishTime>07/21/2019 22:41:34</publishTime>
+    </File>
+    <File Include="AllVisitors.aspx">
+      <publishTime>07/21/2019 22:41:34</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>07/21/2019 22:28:26</publishTime>
+    </File>
+    <File Include="bin/AspNet.ScriptManager.jQuery.dll">
+      <publishTime>07/21/2019 22:28:27</publishTime>
+    </File>
+    <File Include="bin/AspNet.ScriptManager.jQuery.UI.Combined.dll">
+      <publishTime>07/21/2019 22:28:27</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.AspNet.dll">
+      <publishTime>07/21/2019 22:28:27</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.Core.dll">
+      <publishTime>07/21/2019 22:28:27</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OAuth.Consumer.dll">
+      <publishTime>07/21/2019 22:28:27</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OAuth.dll">
+      <publishTime>07/21/2019 22:28:27</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OpenId.dll">
+      <publishTime>07/21/2019 22:28:27</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OpenId.RelyingParty.dll">
+      <publishTime>07/21/2019 22:28:27</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>07/21/2019 22:28:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Membership.OpenAuth.dll">
+      <publishTime>07/21/2019 22:28:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Web.Optimization.WebForms.dll">
+      <publishTime>07/21/2019 22:28:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ScriptManager.MSAjax.dll">
+      <publishTime>07/21/2019 22:28:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ScriptManager.WebForms.dll">
+      <publishTime>07/21/2019 22:28:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/21/2019 22:28:28</publishTime>
+    </File>
+    <File Include="bin/R-VisitorManagementSyatem.dll">
+      <publishTime>08/02/2019 23:48:16</publishTime>
+    </File>
+    <File Include="bin/R-VisitorManagementSyatem.pdb">
+      <publishTime>08/02/2019 23:48:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>07/21/2019 22:28:28</publishTime>
+    </File>
+    <File Include="bin/System.Web.Providers.dll">
+      <publishTime>07/21/2019 22:28:28</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>07/21/2019 22:28:28</publishTime>
+    </File>
+    <File Include="css/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png">
+      <publishTime>07/21/2019 22:28:28</publishTime>
+    </File>
+    <File Include="css/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png">
+      <publishTime>07/21/2019 22:28:28</publishTime>
+    </File>
+    <File Include="css/ui-lightness/images/ui-bg_flat_10_000000_40x100.png">
+      <publishTime>07/21/2019 22:28:28</publishTime>
+    </File>
+    <File Include="css/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png">
+      <publishTime>07/21/2019 22:28:28</publishTime>
+    </File>
+    <File Include="css/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png">
+      <publishTime>07/21/2019 22:28:28</publishTime>
+    </File>
+    <File Include="css/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>07/21/2019 22:28:28</publishTime>
+    </File>
+    <File Include="css/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png">
+      <publishTime>07/21/2019 22:28:28</publishTime>
+    </File>
+    <File Include="css/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png">
+      <publishTime>07/21/2019 22:28:28</publishTime>
+    </File>
+    <File Include="css/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png">
+      <publishTime>07/21/2019 22:28:28</publishTime>
+    </File>
+    <File Include="css/ui-lightness/images/ui-icons_222222_256x240.png">
+      <publishTime>07/21/2019 22:28:28</publishTime>
+    </File>
+    <File Include="css/ui-lightness/images/ui-icons_228ef1_256x240.png">
+      <publishTime>07/21/2019 22:28:28</publishTime>
+    </File>
+    <File Include="css/ui-lightness/images/ui-icons_ef8c08_256x240.png">
+      <publishTime>07/21/2019 22:28:28</publishTime>
+    </File>
+    <File Include="css/ui-lightness/images/ui-icons_ffd27a_256x240.png">
+      <publishTime>07/21/2019 22:28:28</publishTime>
+    </File>
+    <File Include="css/ui-lightness/images/ui-icons_ffffff_256x240.png">
+      <publishTime>07/21/2019 22:28:28</publishTime>
+    </File>
+    <File Include="css/ui-lightness/jquery-ui-1.8.19.custom.css">
+      <publishTime>07/21/2019 22:28:28</publishTime>
+    </File>
+    <File Include="Footer.ascx">
+      <publishTime>07/22/2019 00:05:32</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>07/21/2019 22:41:35</publishTime>
+    </File>
+    <File Include="Header.ascx">
+      <publishTime>07/22/2019 00:26:07</publishTime>
+    </File>
+    <File Include="Images/AKSS.jpeg">
+      <publishTime>07/22/2019 00:21:23</publishTime>
+    </File>
+    <File Include="Images/akss_loogo.png">
+      <publishTime>07/22/2019 00:21:05</publishTime>
+    </File>
+    <File Include="Images/group_3.png">
+      <publishTime>07/22/2019 00:20:49</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>07/22/2019 00:30:20</publishTime>
+    </File>
+    <File Include="MyAccount.aspx">
+      <publishTime>07/21/2019 22:41:35</publishTime>
+    </File>
+    <File Include="Orange1.png">
+      <publishTime>07/21/2019 22:28:26</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.js">
+      <publishTime>07/21/2019 22:28:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.min.js">
+      <publishTime>07/21/2019 22:28:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.2.min.js">
+      <publishTime>07/21/2019 22:28:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.8.19.custom.min.js">
+      <publishTime>07/21/2019 22:28:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.8.20.js">
+      <publishTime>07/21/2019 22:28:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.8.20.min.js">
+      <publishTime>07/21/2019 22:28:29</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.5.3.js">
+      <publishTime>07/21/2019 22:28:29</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/DetailsView.js">
+      <publishTime>07/21/2019 22:28:29</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/Focus.js">
+      <publishTime>07/21/2019 22:28:30</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/GridView.js">
+      <publishTime>07/21/2019 22:28:30</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/Menu.js">
+      <publishTime>07/21/2019 22:28:30</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MenuStandards.js">
+      <publishTime>07/21/2019 22:28:30</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjax.js">
+      <publishTime>07/21/2019 22:28:30</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxApplicationServices.js">
+      <publishTime>07/21/2019 22:28:30</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxComponentModel.js">
+      <publishTime>07/21/2019 22:28:30</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxCore.js">
+      <publishTime>07/21/2019 22:28:30</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxGlobalization.js">
+      <publishTime>07/21/2019 22:28:30</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxHistory.js">
+      <publishTime>07/21/2019 22:28:30</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxNetwork.js">
+      <publishTime>07/21/2019 22:28:30</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxSerialization.js">
+      <publishTime>07/21/2019 22:28:31</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxTimer.js">
+      <publishTime>07/21/2019 22:28:31</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxWebForms.js">
+      <publishTime>07/21/2019 22:28:31</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxWebServices.js">
+      <publishTime>07/21/2019 22:28:31</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/SmartNav.js">
+      <publishTime>07/21/2019 22:28:30</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/TreeView.js">
+      <publishTime>07/21/2019 22:28:30</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/WebForms.js">
+      <publishTime>07/21/2019 22:28:30</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/WebParts.js">
+      <publishTime>07/21/2019 22:28:30</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/WebUIValidation.js">
+      <publishTime>07/21/2019 22:28:30</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>07/21/2019 22:28:29</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>07/22/2019 00:03:52</publishTime>
+    </File>
+    <File Include="StyleSheet.css">
+      <publishTime>07/22/2019 00:15:07</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/26/2019 22:32:17</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
