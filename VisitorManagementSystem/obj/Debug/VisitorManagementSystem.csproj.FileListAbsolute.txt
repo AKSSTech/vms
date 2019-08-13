@@ -1,45 +1,7 @@
-C:\RVisitorManagementSystem\R-VisitorManagementSystem\R-VisitorManagementSyatem\R-VisitorManagementSyatem\bin\R-VisitorManagementSyatem.dll.config
-C:\RVisitorManagementSystem\R-VisitorManagementSystem\R-VisitorManagementSyatem\R-VisitorManagementSyatem\bin\R-VisitorManagementSyatem.dll
-C:\RVisitorManagementSystem\R-VisitorManagementSystem\R-VisitorManagementSyatem\R-VisitorManagementSyatem\bin\R-VisitorManagementSyatem.pdb
-C:\RVisitorManagementSystem\R-VisitorManagementSystem\R-VisitorManagementSyatem\R-VisitorManagementSyatem\bin\EntityFramework.xml
-C:\RVisitorManagementSystem\R-VisitorManagementSystem\R-VisitorManagementSyatem\R-VisitorManagementSyatem\bin\DotNetOpenAuth.Core.xml
-C:\RVisitorManagementSystem\R-VisitorManagementSystem\R-VisitorManagementSyatem\R-VisitorManagementSyatem\bin\DotNetOpenAuth.OAuth.xml
-C:\RVisitorManagementSystem\R-VisitorManagementSystem\R-VisitorManagementSyatem\R-VisitorManagementSyatem\bin\DotNetOpenAuth.OAuth.Consumer.xml
-C:\RVisitorManagementSystem\R-VisitorManagementSystem\R-VisitorManagementSyatem\R-VisitorManagementSyatem\bin\DotNetOpenAuth.OpenId.xml
-C:\RVisitorManagementSystem\R-VisitorManagementSystem\R-VisitorManagementSyatem\R-VisitorManagementSyatem\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
-C:\RVisitorManagementSystem\R-VisitorManagementSystem\R-VisitorManagementSyatem\R-VisitorManagementSyatem\bin\DotNetOpenAuth.AspNet.xml
-C:\RVisitorManagementSystem\R-VisitorManagementSystem\R-VisitorManagementSyatem\R-VisitorManagementSyatem\obj\Debug\VisitorManagementSystem.csproj.CoreCompileInputs.cache
-C:\RVisitorManagementSystem\R-VisitorManagementSystem\R-VisitorManagementSyatem\R-VisitorManagementSyatem\obj\Debug\VisitorManagementSystem.csproj.CopyComplete
-C:\RVisitorManagementSystem\R-VisitorManagementSystem\R-VisitorManagementSyatem\R-VisitorManagementSyatem\obj\Debug\R-VisitorManagementSyatem.dll
-C:\RVisitorManagementSystem\R-VisitorManagementSystem\R-VisitorManagementSyatem\R-VisitorManagementSyatem\obj\Debug\R-VisitorManagementSyatem.pdb
-C:\RVisitorManagementSystem\R-VisitorManagementSystem\R-VisitorManagementSyatem\R-VisitorManagementSyatem\obj\Debug\VisitorManagementSystem.csprojAssemblyReference.cache
-C:\RVisitorManagementSystem\R-VisitorManagementSystem\R-VisitorManagementSyatem\VisitorManagementSystem\bin\R-VisitorManagementSyatem.dll.config
-C:\RVisitorManagementSystem\R-VisitorManagementSystem\R-VisitorManagementSyatem\VisitorManagementSystem\bin\R-VisitorManagementSyatem.dll
-C:\RVisitorManagementSystem\R-VisitorManagementSystem\R-VisitorManagementSyatem\VisitorManagementSystem\bin\R-VisitorManagementSyatem.pdb
-C:\RVisitorManagementSystem\R-VisitorManagementSystem\R-VisitorManagementSyatem\VisitorManagementSystem\bin\EntityFramework.xml
-C:\RVisitorManagementSystem\R-VisitorManagementSystem\R-VisitorManagementSyatem\VisitorManagementSystem\bin\DotNetOpenAuth.Core.xml
-C:\RVisitorManagementSystem\R-VisitorManagementSystem\R-VisitorManagementSyatem\VisitorManagementSystem\bin\DotNetOpenAuth.OAuth.xml
-C:\RVisitorManagementSystem\R-VisitorManagementSystem\R-VisitorManagementSyatem\VisitorManagementSystem\bin\DotNetOpenAuth.OAuth.Consumer.xml
-C:\RVisitorManagementSystem\R-VisitorManagementSystem\R-VisitorManagementSyatem\VisitorManagementSystem\bin\DotNetOpenAuth.OpenId.xml
-C:\RVisitorManagementSystem\R-VisitorManagementSystem\R-VisitorManagementSyatem\VisitorManagementSystem\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
-C:\RVisitorManagementSystem\R-VisitorManagementSystem\R-VisitorManagementSyatem\VisitorManagementSystem\bin\DotNetOpenAuth.AspNet.xml
-C:\RVisitorManagementSystem\R-VisitorManagementSystem\R-VisitorManagementSyatem\VisitorManagementSystem\obj\Debug\VisitorManagementSystem.csprojAssemblyReference.cache
-C:\RVisitorManagementSystem\R-VisitorManagementSystem\R-VisitorManagementSyatem\VisitorManagementSystem\obj\Debug\VisitorManagementSystem.csproj.CoreCompileInputs.cache
-C:\RVisitorManagementSystem\R-VisitorManagementSystem\R-VisitorManagementSyatem\VisitorManagementSystem\obj\Debug\VisitorManagementSystem.csproj.CopyComplete
-C:\RVisitorManagementSystem\R-VisitorManagementSystem\R-VisitorManagementSyatem\VisitorManagementSystem\obj\Debug\R-VisitorManagementSyatem.dll
-C:\RVisitorManagementSystem\R-VisitorManagementSystem\R-VisitorManagementSyatem\VisitorManagementSystem\obj\Debug\R-VisitorManagementSyatem.pdb
-G:\Akss Project\vms\VisitorManagementSystem\bin\R-VisitorManagementSyatem.dll.config
-G:\Akss Project\vms\VisitorManagementSystem\bin\R-VisitorManagementSyatem.dll
-G:\Akss Project\vms\VisitorManagementSystem\bin\R-VisitorManagementSyatem.pdb
-G:\Akss Project\vms\VisitorManagementSystem\bin\EntityFramework.xml
-G:\Akss Project\vms\VisitorManagementSystem\bin\DotNetOpenAuth.Core.xml
-G:\Akss Project\vms\VisitorManagementSystem\bin\DotNetOpenAuth.OAuth.xml
-G:\Akss Project\vms\VisitorManagementSystem\bin\DotNetOpenAuth.OAuth.Consumer.xml
-G:\Akss Project\vms\VisitorManagementSystem\bin\DotNetOpenAuth.OpenId.xml
-G:\Akss Project\vms\VisitorManagementSystem\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
-G:\Akss Project\vms\VisitorManagementSystem\bin\DotNetOpenAuth.AspNet.xml
-G:\Akss Project\vms\VisitorManagementSystem\obj\Debug\VisitorManagementSystem.csprojAssemblyReference.cache
+G:\Akss Project\vms\VisitorManagementSystem\bin\VisitorManagementSyatem.dll.config
+G:\Akss Project\vms\VisitorManagementSystem\bin\VisitorManagementSyatem.dll
+G:\Akss Project\vms\VisitorManagementSystem\bin\VisitorManagementSyatem.pdb
 G:\Akss Project\vms\VisitorManagementSystem\obj\Debug\VisitorManagementSystem.csproj.CoreCompileInputs.cache
 G:\Akss Project\vms\VisitorManagementSystem\obj\Debug\VisitorManagementSystem.csproj.CopyComplete
-G:\Akss Project\vms\VisitorManagementSystem\obj\Debug\R-VisitorManagementSyatem.dll
-G:\Akss Project\vms\VisitorManagementSystem\obj\Debug\R-VisitorManagementSyatem.pdb
+G:\Akss Project\vms\VisitorManagementSystem\obj\Debug\VisitorManagementSyatem.dll
+G:\Akss Project\vms\VisitorManagementSystem\obj\Debug\VisitorManagementSyatem.pdb
