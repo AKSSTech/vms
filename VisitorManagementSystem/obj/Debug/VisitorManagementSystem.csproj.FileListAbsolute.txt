@@ -28,3 +28,18 @@ C:\RVisitorManagementSystem\R-VisitorManagementSystem\R-VisitorManagementSyatem\
 C:\RVisitorManagementSystem\R-VisitorManagementSystem\R-VisitorManagementSyatem\VisitorManagementSystem\obj\Debug\VisitorManagementSystem.csproj.CopyComplete
 C:\RVisitorManagementSystem\R-VisitorManagementSystem\R-VisitorManagementSyatem\VisitorManagementSystem\obj\Debug\R-VisitorManagementSyatem.dll
 C:\RVisitorManagementSystem\R-VisitorManagementSystem\R-VisitorManagementSyatem\VisitorManagementSystem\obj\Debug\R-VisitorManagementSyatem.pdb
+G:\Akss Project\vms\VisitorManagementSystem\bin\R-VisitorManagementSyatem.dll.config
+G:\Akss Project\vms\VisitorManagementSystem\bin\R-VisitorManagementSyatem.dll
+G:\Akss Project\vms\VisitorManagementSystem\bin\R-VisitorManagementSyatem.pdb
+G:\Akss Project\vms\VisitorManagementSystem\bin\EntityFramework.xml
+G:\Akss Project\vms\VisitorManagementSystem\bin\DotNetOpenAuth.Core.xml
+G:\Akss Project\vms\VisitorManagementSystem\bin\DotNetOpenAuth.OAuth.xml
+G:\Akss Project\vms\VisitorManagementSystem\bin\DotNetOpenAuth.OAuth.Consumer.xml
+G:\Akss Project\vms\VisitorManagementSystem\bin\DotNetOpenAuth.OpenId.xml
+G:\Akss Project\vms\VisitorManagementSystem\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+G:\Akss Project\vms\VisitorManagementSystem\bin\DotNetOpenAuth.AspNet.xml
+G:\Akss Project\vms\VisitorManagementSystem\obj\Debug\VisitorManagementSystem.csprojAssemblyReference.cache
+G:\Akss Project\vms\VisitorManagementSystem\obj\Debug\VisitorManagementSystem.csproj.CoreCompileInputs.cache
+G:\Akss Project\vms\VisitorManagementSystem\obj\Debug\VisitorManagementSystem.csproj.CopyComplete
+G:\Akss Project\vms\VisitorManagementSystem\obj\Debug\R-VisitorManagementSyatem.dll
+G:\Akss Project\vms\VisitorManagementSystem\obj\Debug\R-VisitorManagementSyatem.pdb

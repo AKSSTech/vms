@@ -14,8 +14,8 @@ namespace VisitorManagementSystem
         SqlCommand cmd = new SqlCommand();
         DataSet ds = new DataSet();
         DataTable dt = new DataTable();
-        //string connectionstring = @"Data Source=DELL7440\SQLEXPRESS;Initial Catalog=VisitorManagementSystem;Integrated Security=True";
-        string connectionstring = @"Data Source=DELL7440\SQLEXPRESS;Initial Catalog=VisitorManagementSystem;User ID=test;Password=test";
+        string connectionstring = @"Data Source=AK-PC\SQLEXPRESS;Initial Catalog=VisitorManagementSystem;Integrated Security=True";
+        //string connectionstring = @"Data Source=DELL7440\SQLEXPRESS;Initial Catalog=VisitorManagementSystem;User ID=test;Password=test";
         public DataBaseClass()
         {
             //
