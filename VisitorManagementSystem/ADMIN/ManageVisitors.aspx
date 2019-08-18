@@ -36,6 +36,7 @@
                             <asp:Button ID="btnWithoutLogOut" runat="server" Text="Visitor Without Logout " OnClick="btnWithoutLogOut_Click" />
                             <asp:Button ID="btnAllLogout" runat="server" Text="All Logout Visitor" OnClick="btnAllLogout_Click" />
                             <asp:Button ID="btnCancel" runat="server" Text="Cancel" OnClientClick="JavaScript:window.history.back(1); return false;" />
+                            <asp:Button ID="btnExport" runat="server" OnClick="btnExport_Click" Text="Export" />
                         </td>
                     </tr>
                     <tr>

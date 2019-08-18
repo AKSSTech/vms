@@ -16,7 +16,7 @@
                 <asp:TextBox ID="txtName" runat="server" Width="200px"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="reqName" ControlToValidate="txtName" ValidationGroup="AddVistorFrame" runat="server" ErrorMessage="*" ForeColor="Red"></asp:RequiredFieldValidator>
             </td>
-            <td>IC / Passport no</td>
+            <td>IC / Passport No</td>
             <td>
                 <asp:TextBox ID="txtICno" runat="server" Width="200px"></asp:TextBox>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator1" ControlToValidate="txtICno" ValidationGroup="AddVistorFrame" runat="server" ErrorMessage="*" ForeColor="Red"></asp:RequiredFieldValidator>

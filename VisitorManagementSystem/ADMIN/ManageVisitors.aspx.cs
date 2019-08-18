@@ -77,5 +77,16 @@ namespace VisitorManagementSystem.ADMIN
             Query = "Select * FROM VISITOR WHERE Out_Time <> '' ORDER BY Visitor_ID DESC ";
             GetAllVisitors(Query);
         }
+
+        protected void btnExport_Click(object sender, EventArgs e)
+        {
+            string Query = "Select Visitor_ID,IC_No,Name,Mobile,City,Address,Block_FloorName,VisitPurpose,PersonToMeet,Visit_Date,In_Time,Out_Time FROM VISITOR ORDER BY Visitor_ID DESC ";
+            dt = new DataTable();
+            dt = dbClass.ConnectDataBaseReturnDT(Query);
+            if (dt.Rows.Count > 0)
+            {
+                Common.ExporttoExcel(dt, GridViewAllVisitors);
+            }
+        }
     }
 }

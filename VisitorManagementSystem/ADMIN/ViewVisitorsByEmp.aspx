@@ -21,6 +21,8 @@
                             <asp:Button ID="btnSearchVisitor" runat="server" Text="Search Visitor" OnClick="btnSearchVisitor_Click" />
                             <asp:Button ID="btnCancel" runat="server" Text="Cancel" OnClientClick="JavaScript:window.history.back(1); return false;" />
 
+                            <asp:Button ID="btnExport" runat="server" OnClick="btnExport_Click" Text="Export" />
+
                         </td>
                     </tr>
                     <tr>

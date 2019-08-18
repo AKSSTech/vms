@@ -12,7 +12,7 @@ namespace VisitorManagementSystem.ADMIN
     {
         DataBaseClass dbClass = new DataBaseClass();
         DataTable dt = new DataTable();
-
+        
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!object.Equals(Session["UserId"], null))
@@ -63,5 +63,18 @@ namespace VisitorManagementSystem.ADMIN
                 GridViewAllVisitors.DataBind();
             }
         }
+
+        protected void btnExport_Click(object sender, EventArgs e)
+        {
+            string SearchVisitor = "Select Visitor_ID , IC_No,Name,Mobile,Block_FloorName,City,Address,VisitPurpose,PersonToMeet,Visit_Date,In_Time,Out_Time FROM VISITOR WHERE Emp_ID='" + ddlEmployee.SelectedItem.Value.ToString() + "' ORDER BY Visitor_ID DESC "; ;
+            dt = new DataTable();
+            dt = dbClass.ConnectDataBaseReturnDT(SearchVisitor);
+            if (dt.Rows.Count > 0)
+            {
+                Common.ExporttoExcel(dt, GridViewAllVisitors);
+            }
+        }
+
+        
     }
 }
