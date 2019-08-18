@@ -41,27 +41,54 @@
                     <tr>
                         <td>
                             <asp:GridView ID="GridViewAllVisitors" runat="server" EmptyDataText="There is no Visitor." CellPadding="4"
-                                ForeColor="#333333" GridLines="None" AutoGenerateColumns="false" Width="100%">
+                                ForeColor="#333333" GridLines="None" AutoGenerateColumns="False" Width="100%">
                                 <AlternatingRowStyle BackColor="White" />
                                 <FooterStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
                                 <HeaderStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
                                 <PagerStyle BackColor="#FFCC66" ForeColor="#333333" HorizontalAlign="Center" />
                                 <RowStyle BackColor="#FFFBD6" ForeColor="#333333" />
                                 <Columns>
-                                    <asp:BoundField DataField="Visitor_ID" HeaderText="Visitor ID" HeaderStyle-HorizontalAlign="Left" />
-                                    <asp:BoundField DataField="Name" HeaderText="Name" HeaderStyle-HorizontalAlign="Left" />
-                                    <asp:BoundField DataField="Mobile" HeaderText="Mobile" HeaderStyle-HorizontalAlign="Left" />
+                                    <asp:BoundField DataField="Visitor_ID" HeaderText="Visitor ID" HeaderStyle-HorizontalAlign="Left" >
+<HeaderStyle HorizontalAlign="Left"></HeaderStyle>
+                                    </asp:BoundField>
 
-                                    <asp:BoundField DataField="Organization" HeaderText="From Company" HeaderStyle-HorizontalAlign="Left" />
-                                    <asp:BoundField DataField="City" HeaderText="City" HeaderStyle-HorizontalAlign="Left" />
-                                    <asp:BoundField DataField="Address" HeaderText="Address" HeaderStyle-HorizontalAlign="Left" />
+                                    <asp:BoundField DataField="IC_No" HeaderText="IC / Passport" HeaderStyle-HorizontalAlign="Left" >
+<HeaderStyle HorizontalAlign="Left"></HeaderStyle>
+                                    </asp:BoundField>
+                                    <asp:BoundField DataField="Name" HeaderText="Name" HeaderStyle-HorizontalAlign="Left" >
+<HeaderStyle HorizontalAlign="Left"></HeaderStyle>
+                                    </asp:BoundField>
+                                    <asp:BoundField DataField="Mobile" HeaderText="Mobile" HeaderStyle-HorizontalAlign="Left" >
 
-                                    <asp:BoundField DataField="Visit_Department" HeaderText="To Department" HeaderStyle-HorizontalAlign="Left" />
-                                    <asp:BoundField DataField="VisitPurpose" HeaderText="Visit Purpose" HeaderStyle-HorizontalAlign="Left" />
+<HeaderStyle HorizontalAlign="Left"></HeaderStyle>
+                                    </asp:BoundField>
+                                    <asp:BoundField DataField="City" HeaderText="City" HeaderStyle-HorizontalAlign="Left" >
+<HeaderStyle HorizontalAlign="Left"></HeaderStyle>
+                                    </asp:BoundField>
+                                    <asp:BoundField DataField="Address" HeaderText="Address" HeaderStyle-HorizontalAlign="Left" >
 
-                                    <asp:BoundField DataField="Visit_Date" HeaderText="Visit Date" HeaderStyle-HorizontalAlign="Left" DataFormatString="{0:MMMM d, yyyy}" HtmlEncode="false" />
-                                    <asp:BoundField DataField="In_Time" HeaderText="In" HeaderStyle-HorizontalAlign="Left" />
-                                    <asp:BoundField DataField="Out_Time" HeaderText="Out" HeaderStyle-HorizontalAlign="Left" />
+<HeaderStyle HorizontalAlign="Left"></HeaderStyle>
+                                    </asp:BoundField>
+
+                                    <asp:BoundField DataField="Block_FloorName" HeaderText="Block Name" HeaderStyle-HorizontalAlign="Left" >
+<HeaderStyle HorizontalAlign="Left"></HeaderStyle>
+                                    </asp:BoundField>
+                                    <asp:BoundField DataField="VisitPurpose" HeaderText="Visit Purpose" HeaderStyle-HorizontalAlign="Left" >
+
+<HeaderStyle HorizontalAlign="Left"></HeaderStyle>
+                                    </asp:BoundField>
+                                    <asp:BoundField DataField="PersonToMeet" HeaderText="PersonToMeet" />
+
+                                    <asp:BoundField DataField="Visit_Date" HeaderText="Visit Date" HeaderStyle-HorizontalAlign="Left" DataFormatString="{0:MMMM d, yyyy}" HtmlEncode="false" >
+<HeaderStyle HorizontalAlign="Left"></HeaderStyle>
+                                    </asp:BoundField>
+                                    <asp:BoundField DataField="In_Time" HeaderText="In" HeaderStyle-HorizontalAlign="Left" >
+<HeaderStyle HorizontalAlign="Left"></HeaderStyle>
+                                    </asp:BoundField>
+                                    <asp:BoundField DataField="Out_Time" HeaderText="Out" HeaderStyle-HorizontalAlign="Left" >
+
+<HeaderStyle HorizontalAlign="Left"></HeaderStyle>
+                                    </asp:BoundField>
 
                                     <asp:TemplateField>
                                         <ItemTemplate>

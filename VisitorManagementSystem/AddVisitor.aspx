@@ -14,12 +14,13 @@
             </td>
             <td>
                 <asp:TextBox ID="txtName" runat="server" Width="200px"></asp:TextBox>
-
+                    <asp:RequiredFieldValidator ID="reqName" ControlToValidate="txtName" ValidationGroup="AddVistorFrame" runat="server" ErrorMessage="*" ForeColor="Red"></asp:RequiredFieldValidator>
             </td>
-            <td>From Company:
-            </td>
+            <td>IC / Passport no</td>
             <td>
-                <asp:TextBox ID="txtFromCompany" runat="server" Width="200px"></asp:TextBox></td>
+                <asp:TextBox ID="txtICno" runat="server" Width="200px"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" ControlToValidate="txtICno" ValidationGroup="AddVistorFrame" runat="server" ErrorMessage="*" ForeColor="Red"></asp:RequiredFieldValidator>
+            </td>
 
         </tr>
 
@@ -32,7 +33,9 @@
             <td>Visit Purpose:
             </td>
             <td>
-                <asp:TextBox ID="txtVisitPurpose" runat="server" Width="200px"></asp:TextBox></td>
+                <asp:TextBox ID="txtVisitPurpose" runat="server" Width="200px"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator2" ControlToValidate="txtVisitPurpose" ValidationGroup="AddVistorFrame" runat="server" ErrorMessage="*" ForeColor="Red"></asp:RequiredFieldValidator>
+            </td>
         </tr>
 
         <tr>
@@ -47,15 +50,24 @@
         </tr>
 
         <tr>
-            <td style="padding-left: 30px;">Department To Meet:
-            </td>
+            <td style="padding-left: 30px;">Block &amp; Floor Name:</td>
             <td>
-                <asp:DropDownList ID="ddlDepartment" runat="server" Width="200px">
+                <asp:TextBox ID="txtBlockName" runat="server" Width="200px"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator3" ControlToValidate="txtBlockName" ValidationGroup="AddVistorFrame" runat="server" ErrorMessage="*" ForeColor="Red"></asp:RequiredFieldValidator>
+
+                <%--<asp:DropDownList ID="ddlDepartment" runat="server" Width="200px">
                     <asp:ListItem>HR</asp:ListItem>
                     <asp:ListItem>IT</asp:ListItem>
                     <asp:ListItem>Interview</asp:ListItem>
                     <asp:ListItem>Office Desk</asp:ListItem>
-                </asp:DropDownList></td>
+                </asp:DropDownList>--%>
+                    </td>
+              <td>Person To Meet:</td>
+            <td>
+                <asp:TextBox ID="txtPersontoMeet" runat="server" Width="200px"></asp:TextBox>
+             <asp:RequiredFieldValidator ID="RequiredFieldValidator4" ControlToValidate="txtPersontoMeet" ValidationGroup="AddVistorFrame" runat="server" ErrorMessage="*" ForeColor="Red"></asp:RequiredFieldValidator>
+
+            </td>
         </tr>
         <tr>
             <td style="padding-left: 30px;">City:
@@ -70,7 +82,7 @@
         <tr>
             <td></td>
             <td>
-                <asp:Button ID="btnAddVisitor" runat="server" Text="Add Visitor" OnClick="btnAddVisitor_Click" />
+                <asp:Button ID="btnAddVisitor" runat="server" Text="Add Visitor" ValidationGroup="AddVistorFrame" OnClick="btnAddVisitor_Click" />
                 <asp:button id="btnCancel" runat="server" text="Cancel" OnClientClick="JavaScript:window.history.back(1); return false;" />
 
                

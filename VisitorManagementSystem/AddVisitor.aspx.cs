@@ -21,7 +21,7 @@ namespace VisitorManagementSystem
         protected void btnAddVisitor_Click(object sender, EventArgs e)
         {
             //Inserting Visitor Information into the DataBase.
-            string InsertVisitorInfo = "INSERT INTO [Visitor] (Emp_ID,Name,Mobile,Organization,City,Address,Visit_Department,VisitPurpose,In_Time) VALUES('" + Session["UserId"].ToString() + "','" + txtName.Text + "','" + txtMobile.Text + "','" + txtFromCompany.Text + "','" + txtCity.Text + "','" + txtAddress.Text + "','" + ddlDepartment.SelectedItem.Text + "','" + txtVisitPurpose.Text + "','" + System.DateTime.Now.ToLongTimeString().ToString() + "')";
+            string InsertVisitorInfo = "INSERT INTO [Visitor] (Emp_ID,Name,Mobile,IC_No,City,Address,Block_FloorName,VisitPurpose,In_Time,PersonToMeet) VALUES('" + Session["UserId"].ToString() + "','" + txtName.Text + "','" + txtMobile.Text + "','" + txtICno.Text + "','" + txtCity.Text + "','" + txtAddress.Text + "','" + txtBlockName.Text + "','" + txtVisitPurpose.Text + "','" + System.DateTime.Now.ToLongTimeString().ToString() + "','"+txtPersontoMeet.Text+"')";
             dbClass.ConnectDataBaseToInsert(InsertVisitorInfo);
             Response.Redirect("AllVisitors.aspx");
         }

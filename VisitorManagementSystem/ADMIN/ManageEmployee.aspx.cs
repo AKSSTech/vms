@@ -54,14 +54,10 @@ namespace VisitorManagementSystem.ADMIN
 
         protected void btnAddNewUser_Click(object sender, EventArgs e)
         {
-            if (!String.IsNullOrEmpty(txtUserName.Text) && !String.IsNullOrEmpty(txtUserEmail.Text) && !String.IsNullOrEmpty(txtPwd.Text))
+            if (!String.IsNullOrEmpty(txtUserEmail.Text) && !String.IsNullOrEmpty(txtPwd.Text))
             {
                 string InsertFileInfo = "INSERT INTO [Employee] (Name,Email,Password,User_Type) VALUES('" + txtUserName.Text + "','" + txtUserEmail.Text + "','" + txtPwd.Text + "','User')";
                 dbClass.ConnectDataBaseToInsert(InsertFileInfo);
-            }
-            else
-            {
-                lblError.Text = "Please enter the details.";
             }
             GetAllUsers();
         }

@@ -16,26 +16,31 @@
                         <td style="width: 30%; padding-left: 100px; font-family: Arial; font-size: 11pt; color: green;">Employee Name #:               
                         </td>
                         <td style="padding-left: 20px;">
-                            <asp:TextBox ID="txtUserName" runat="server" Width="250px"></asp:TextBox>
+                            <asp:TextBox ID="txtUserName" runat="server" Width="250px" ValidationGroup="AddloginFrame"></asp:TextBox>
+                       <asp:RequiredFieldValidator ID="RequiredFieldValidator1" ControlToValidate="txtUserName" ValidationGroup="AddloginFrame" runat="server" ErrorMessage="*" ForeColor="Red"></asp:RequiredFieldValidator>
+
                         </td>
                     </tr>
                     <tr>
-                        <td style="width: 30%; padding-left: 100px; font-family: Arial; font-size: 11pt; color: green;">Email #:               
+                        <td style="width: 30%; padding-left: 100px; font-family: Arial; font-size: 11pt; color: green;">Email / UserName #:               
                         </td>
                         <td style="padding-left: 20px;">
-                            <asp:TextBox ID="txtUserEmail" runat="server" Width="250px"></asp:TextBox></td>
+                            <asp:TextBox ID="txtUserEmail" runat="server" Width="250px" ValidationGroup="AddloginFrame"></asp:TextBox>
+                            <asp:RequiredFieldValidator ID="RequiredFieldValidator3" ControlToValidate="txtUserEmail" ValidationGroup="AddloginFrame" runat="server" ErrorMessage="*" ForeColor="Red"></asp:RequiredFieldValidator>
+                        </td>
                     </tr>
                     <tr>
                         <td style="width: 30%; padding-left: 100px; font-family: Arial; font-size: 11pt; color: green;">Password #:               
                         </td>
                         <td style="padding-left: 20px;">
-                            <asp:TextBox ID="txtPwd" runat="server" Width="250px" TextMode="Password"></asp:TextBox></td>
+                            <asp:TextBox ID="txtPwd" runat="server" Width="250px" TextMode="Password" ValidationGroup="AddloginFrame"></asp:TextBox>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" ControlToValidate="txtPwd" ValidationGroup="AddloginFrame" runat="server" ErrorMessage="*" ForeColor="Red"></asp:RequiredFieldValidator>
+                        </td>
                     </tr>
                     <tr>
                         <td></td>
                         <td style="padding-left: 20px; padding-top: 10px;">
-                            <asp:Label ID="lblError" runat="server" ForeColor="Red"></asp:Label>
-                            <asp:Button ID="btnAddNewUser" runat="server" Text="Add New User" OnClick="btnAddNewUser_Click" />
+                            <asp:Button ID="btnAddNewUser" ValidationGroup="AddloginFrame" runat="server" Text="Add New User" OnClick="btnAddNewUser_Click" />
                             <asp:Button ID="btnCancel" runat="server" Text="Cancel" OnClientClick="JavaScript:window.history.back(1); return false;" /></td>
                     </tr>
                 </table>
